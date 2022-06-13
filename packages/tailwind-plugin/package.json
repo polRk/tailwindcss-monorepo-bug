@@ -1,0 +1,12 @@
+{
+    "name": "@betteraskbot/tailwind-plugin",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./index.js",
+    "scripts": {
+        "lint": "TIMING=1 eslint --ext=.js,.ts ./lib"
+    },
+    "peerDependencies": {
+        "tailwindcss": "^3.1.0"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "name": "@betteraskbot/paths",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./index.js",
+    "types": "./index.d.ts",
+    "scripts": {
+        "lint": "TIMING=1 eslint --ext=.js,.ts ."
+    }
+}

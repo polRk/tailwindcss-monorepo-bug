@@ -1,0 +1,16 @@
+{
+    "name": "@betteraskbot/ui",
+    "version": "0.0.0",
+    "private": true,
+    "main": "index.ts",
+    "dependencies": {
+        "@betteraskbot/ui": "*"
+    },
+    "devDependencies": {
+        "@betteraskbot/eslint-config": "*",
+        "@betteraskbot/tsconfig": "*"
+    },
+    "peerDependencies": {
+        "react": "18.1.0"
+    }
+}

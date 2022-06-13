@@ -1,0 +1,15 @@
+{
+    "extends": "@betteraskbot/tsconfig/vite.json",
+    "compilerOptions": {
+        "experimentalDecorators": true,
+    },
+    "include": [
+        "src",
+        "vite-env.d.ts"
+    ],
+    "references": [
+        {
+            "path": "./tsconfig.node.json"
+        }
+    ]
+}
